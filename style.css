@@ -1,0 +1,75 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .labels {
+    display: flex;
+    margin: 20px;
+}
+
+#label-item {
+    margin: 20px;
+}
+
+#add-btn {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(155, 9, 9);
+    border: none;
+    color: whitesmoke;
+}
+.title {
+    display: flex;
+    align-items: space-betwee;
+}
+
+img {
+    margin-top: 10px;
+    
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+#add-btn:hover {
+    background-color: rgba(253, 135, 105, 0.801);
+}
+
+span {
+    color: red;
+}
+
+
+table, tr, td, th {
+    border: solid black;
+    border-collapse: collapse;
+    border-color: grey;
+
+    
+}
+
+th {
+    width: 200px;
+    color: blue;
+}
+
+td {
+    font-weight: bold;
+    color: rgb(204, 24, 24);
+}
+
+label {
+    font-weight: bold;
+}
+
